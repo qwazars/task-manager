@@ -1,0 +1,287 @@
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.app-nav,
+.admin-nav {
+  margin: 0 0 12px;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #1f6feb;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.link-button:hover {
+  opacity: 0.9;
+}
+
+.admin-app {
+  max-width: 760px;
+}
+
+.admin-session {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.subtitle {
+  margin-top: -4px;
+  margin-bottom: 0;
+  color: #5c6370;
+  font-size: 0.95rem;
+}
+
+.auth-title {
+  margin: 0 0 4px;
+  font-size: 1.75rem;
+}
+
+.auth-card {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #d0d7de;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 0;
+  background: #f0f3f6;
+  color: #24292f;
+  font-weight: 600;
+}
+
+.tab:hover {
+  opacity: 1;
+  background: #e6eaef;
+}
+
+.tab.active {
+  background: #1f6feb;
+  color: #fff;
+}
+
+.auth-form,
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field span {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #24292f;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(27, 31, 36, 0.04);
+}
+
+.card h2 {
+  margin: 0 0 14px;
+  font-size: 1.1rem;
+}
+
+input,
+textarea,
+button {
+  font-size: 14px;
+  font-family: inherit;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d0d7de;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 52px;
+}
+
+button {
+  cursor: pointer;
+  background: #1f6feb;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+
+button:hover:not(:disabled) {
+  background: #1a5fd4;
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: #f0f3f6;
+  color: #24292f;
+  border: 1px solid #d0d7de;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #e6eaef;
+}
+
+.btn-danger {
+  background: #cf222e;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: #a40e26;
+}
+
+.status {
+  color: #24292f;
+  min-height: 1.2em;
+  font-size: 0.9rem;
+}
+
+.status.error {
+  color: #cf222e;
+  margin-top: 12px;
+}
+
+.todo-shell {
+  width: 100%;
+}
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.todo-header h1 {
+  margin: 0 0 4px;
+  font-size: 1.75rem;
+}
+
+.tasks-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.tasks-toolbar h2 {
+  margin: 0;
+}
+
+.muted {
+  color: #656d76;
+  margin: 0;
+}
+
+.task-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid #d8dee4;
+  border-radius: 10px;
+  background: #fafbfc;
+}
+
+.task.done .task-title {
+  text-decoration: line-through;
+  color: #656d76;
+}
+
+.task-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  flex: 1;
+  min-width: 0;
+}
+
+.task-check input {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.task-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.task-title {
+  font-weight: 600;
+  color: #24292f;
+  word-break: break-word;
+}
+
+.task-desc {
+  font-size: 0.9rem;
+  color: #57606a;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.task-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.task-edit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.task-edit input,
+.task-edit textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
