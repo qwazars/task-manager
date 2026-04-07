@@ -121,4 +121,4 @@ After build, FastAPI serves compiled frontend assets from `frontend/dist`.
 
 ## License
 
-Add your preferred license (MIT, Apache-2.0, etc.) before publishing.
+Qwazar@
