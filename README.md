@@ -40,7 +40,7 @@ docker-compose.yml
 ### 1) Clone and enter project
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/qwazars/task-manager.git
 cd task_manager
 ```
 
