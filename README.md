@@ -119,6 +119,3 @@ After build, FastAPI serves compiled frontend assets from `frontend/dist`.
   - local/dev defaults to off
   - override with `COOKIE_SECURE=true|false`
 
-## License
-
-Qwazar@
